@@ -32,8 +32,8 @@ This script automates exactly that.
 ## Installation
 Clone the repo inside your Debian VM:
 ```bash
-git clone https://github.com/YOURNAME/wireguard-terminal-app.git
-cd wireguard-terminal-app
+git clone https://github.com/s4mba-dev/wireguard-virt-terminal.git
+cd wireguard-virt-terminal
 chmod +x wg-helper.sh
 ```
 
@@ -44,7 +44,7 @@ Install dependencies:
 
 Import your provider config (downloaded for **Linux/WireGuard**):
 ```bash
-./wg-helper.sh import ~/Downloads/my-vpn.conf
+./wg-helper.sh import /path/to/my-vpn.conf
 ```
 
 Start VPN:
@@ -65,7 +65,7 @@ Stop VPN:
 ## Example (Mullvad)
 ```bash
 ./wg-helper.sh install
-./wg-helper.sh import ~/Downloads/mullvad-se-stockholm.conf
+./wg-helper.sh import ~/download/mullvad-se-stockholm.conf
 ./wg-helper.sh up
 ./wg-helper.sh status
 ```
