@@ -1,5 +1,4 @@
-# WireGuard VPN in Android "Terminal" App 
-##(com.android.virtualization.terminal)
+# WireGuard VPN in Android "Terminal" App (com.android.virtualization.terminal)
 
 Script to install and run a **WireGuard VPN connection** inside the Android **Terminal App** (`com.android.virtualization.terminal`) on Google Pixel and similar devices.  
 This project fills the gap where no official documentation exists for VPNs inside this virtualized environment.
