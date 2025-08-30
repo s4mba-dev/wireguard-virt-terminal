@@ -6,11 +6,11 @@ This project fills the gap where no official documentation exists for VPNs insid
 ## Why?
 Android VPN apps (Mullvad, ProtonVPN, IVPN, etc.) tunnel app traffic on Android.  
 The **Terminal App** runs a **virtualized Linux VM (Debian/Ubuntu via AVF)** with its own network stack — so host VPNs do **not** affect it.  
-The Terminal App **completely bypasses any existing VPN connection** on the smartphone.  
-Therefore, if you want traffic from inside the Terminal App to be tunneled, you must establish a **separate VPN connection inside the VM itself**.  
+The Terminal App **completely bypasses any existing VPN connection** on Android devices.  
+Therefore, if you want traffic from inside the Terminal App to be tunneled/secured, you must establish a **separate VPN connection inside the VM itself**.  
 
 This has a major advantage:  
-→ You can run **two separate VPNs in parallel** — one for your Android device, and one for your Terminal App (e.g. different providers, routes or countries).
+→ You can run **two separate VPNs in parallel** — one for your Android device, and one for your Terminal App (e.g. different providers, routes or countries, ... or simply on the move in the private and company network at the same time).
 
 This script automates exactly that.
 
